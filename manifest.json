@@ -1,0 +1,13 @@
+{
+    "name": "КиноСайт",
+    "description": "Популярные фильмы кинопоиска",
+    "display": "standalone",
+    "background-color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "icons/logo.png",
+            "sizes": "192x192"
+        }
+    ]
+}

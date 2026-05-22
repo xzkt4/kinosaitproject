@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Популярные фильмы кинопоиска">
+    <meta name="keywords" content="кинопоиск, фильмы, топ 250, популярные фильмы, актёры">
+    <meta name="author" content="киносайт" >
+    <meta name="robots" content="prj, follow">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Фильмы КП">
+
+    <title>Фильмы с Кинопоиска</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Популярные фильмы</h1>
+    
+    <div class="filters">
+        <select id="typeSelect">
+            <option value="TOP_250_BEST_FILMS">Топ 250 лучших фильмов</option>
+            <option value="TOP_100_POPULAR_FILMS">Топ 100 популярных</option>
+        </select>
+        <button onclick="loadMovies()">Загрузить</button>
+    </div>
+    
+    <div id="loading" class="loading">Загрузка фильмов...</div>
+    <div id="error" class="error"></div>
+    
+    <div class="movies-grid" id="moviesGrid"></div>
+    
+    <div class="pagination" id="pagination"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

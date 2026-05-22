@@ -2,6 +2,7 @@
     "name": "КиноСайт",
     "description": "Популярные фильмы кинопоиска",
     "display": "standalone",
+    "start_url": "prj.html",
     "background-color": "#fff",
     "orientation": "portrait-primary",
     "icons": [
